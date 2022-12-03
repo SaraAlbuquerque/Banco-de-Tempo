@@ -1,10 +1,10 @@
-
+import "./style.css"
 
 export const ServiceInfo = () => {
 
     return (
-        <div>
-            <h2>Informações do serviço</h2>
+        <div className="info">
+            <h2 className="title">Informações do serviço</h2>
             <p>Título:</p>
             <p>Nome do servidor:</p>
             <p>Nome do cliente:</p>

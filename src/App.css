@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Raleway;
+    src: url(./assets/fonts/Raleway-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: "Raleway";
+    src: local(Raleway), url(./assets/fonts/Raleway-Bold.ttf);
+    font-weight: 600;
+ }
+
+@font-face {
+   font-family: "Raleway";
+   src: local(Raleway), url(./assets/fonts/Raleway-light.ttf);
+   font-weight: 300;
+}
+
+*{
+   background-color: #190333;
+   font-family: Raleway;
+}

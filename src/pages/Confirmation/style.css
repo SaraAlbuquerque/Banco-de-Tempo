@@ -1,0 +1,24 @@
+.confirmation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.btn{
+    width: 15vw;
+    height: 6vh;
+    border-radius: 3%;
+    margin: 2%;
+    font-weight: 600;
+    background-color: #05FFB4;
+    color: #190333;
+    font-size: 130%;
+    box-shadown: none;
+}
+
+.btn:hover {
+    background-color: rgba(0,0,0,0);
+    border: solid 1px #05FFB4;
+    color:#05FFB4;
+}

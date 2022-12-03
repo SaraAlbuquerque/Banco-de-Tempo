@@ -1,10 +1,11 @@
 import { ServiceInfo } from "../../components/ServiceInfo"
+import "./style.css"
 
 export const Confirmation = () => {
     return (
-        <div>
+        <div className="confirmation">
             <ServiceInfo />
-            <input type="button" value="Confirmar" />
+            <input className="btn" type="button" value="Confirmar" />
         </div>
     )
 }
